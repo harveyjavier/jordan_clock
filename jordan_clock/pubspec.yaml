@@ -1,0 +1,38 @@
+name: jordan_clock
+description: A simple clock app inspired by Jordan brand.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  intl: ^0.16.0
+  vector_math: ^2.0.8
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: JordanBoldGrunge
+      fonts:
+        - asset: assets/fonts/JordanBoldGrunge.ttf
+    - family: Quicksand_Bold
+      fonts:
+        - asset: assets/fonts/Quicksand_Bold.otf
+    - family: Quicksand_Book
+      fonts:
+        - asset: assets/fonts/Quicksand_Book.otf
+    - family: Quicksand_Light
+      fonts:
+        - asset: assets/fonts/Quicksand_Light.otf
